@@ -2,9 +2,6 @@ const repeatString = function(str, it) {
     if (it < 0) {
         return "ERROR";
     }
-    else if (it == 0){
-        return "";
-    }
 
     let newStr = "";
 
